@@ -1,0 +1,13 @@
+services:
+  otel:
+    image: grafana/otel-lgtm:0.12.0
+    ports:
+      - '3000:3000'
+  quarkus:
+    image: docker.io/damien/code-with-quarkus-opentelemetry:1.0.0-SNAPSHOT
+    environment:
+      - QUARKUS_OTEL_EXPORTER_OTLP_ENDPOINT=http://otel:4317
+    ports:
+      - '8080:8080'
+    links:
+      - otel
