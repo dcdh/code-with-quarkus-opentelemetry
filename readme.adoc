@@ -2,3 +2,4 @@
 
 http://localhost:3000/explore?schemaVersion=1&panes=%7B%22tkh%22%3A%7B%22datasource%22%3A%22tempo%22%2C%22queries%22%3A%5B%7B%22refId%22%3A%22A%22%2C%22datasource%22%3A%7B%22type%22%3A%22tempo%22%2C%22uid%22%3A%22tempo%22%7D%2C%22queryType%22%3A%22traceqlSearch%22%2C%22limit%22%3A20%2C%22tableType%22%3A%22traces%22%2C%22metricsQueryType%22%3A%22range%22%2C%22serviceMapUseNativeHistograms%22%3Afalse%2C%22filters%22%3A%5B%7B%22id%22%3A%228240bf34%22%2C%22operator%22%3A%22%3D%22%2C%22scope%22%3A%22span%22%7D%5D%7D%5D%2C%22range%22%3A%7B%22from%22%3A%22now-1h%22%2C%22to%22%3A%22now%22%7D%2C%22compact%22%3Afalse%7D%7D&orgId=1
 
+https://in.relation.to/2017/02/01/non-temporary-table-bulk-id-strategies/
